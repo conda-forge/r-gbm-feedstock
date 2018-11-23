@@ -3,7 +3,7 @@ About r-gbm
 
 Home: https://github.com/gbm-developers/gbm
 
-Package license: GPL (>= 2) | file LICENSE
+Package license: GPL (>= 2)
 
 Feedstock license: BSD 3-Clause
 
