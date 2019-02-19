@@ -1,4 +1,4 @@
-{% set version = '2.1.4' %}
+{% set version = "2.1.5" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gbm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gbm/gbm_{{ version }}.tar.gz
-  sha256: 91fe50345f94a42a75a789cc2c05e489610c109508896479725df810920ee152
+  sha256: 06fbde10639dfa886554379b40a7402d1f1236a9152eca517e97738895a4466f
 
 build:
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
