@@ -5,7 +5,7 @@ Home: https://github.com/gbm-developers/gbm
 
 Package license: GPL (>= 2)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: An implementation of extensions to Freund and Schapire's AdaBoost  algorithm and Friedman's gradient boosting machine. Includes regression  methods for least squares, absolute loss, t-distribution loss, quantile  regression, logistic, multinomial logistic, Poisson, Cox proportional hazards  partial likelihood, AdaBoost exponential loss, Huberized hinge loss, and  Learning to Rank measures (LambdaMart). Originally developed by Greg Ridgeway.
 
