@@ -5,17 +5,29 @@ Home: https://github.com/gbm-developers/gbm
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gbm-feedstock/blob/master/LICENSE.txt)
 
 Summary: An implementation of extensions to Freund and Schapire's AdaBoost  algorithm and Friedman's gradient boosting machine. Includes regression  methods for least squares, absolute loss, t-distribution loss, quantile  regression, logistic, multinomial logistic, Poisson, Cox proportional hazards  partial likelihood, AdaBoost exponential loss, Huberized hinge loss, and  Learning to Rank measures (LambdaMart). Originally developed by Greg Ridgeway.
-
-
 
 Current build status
 ====================
 
 
-<table>
+<table><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://travis-ci.com/conda-forge/r-gbm-feedstock">
+        <img alt="macOS" src="https://img.shields.io/travis/com/conda-forge/r-gbm-feedstock/master.svg?label=macOS">
+      </a>
+    </td>
+  </tr><tr>
+    <td>Drone</td>
+    <td>
+      <a href="https://cloud.drone.io/conda-forge/r-gbm-feedstock">
+        <img alt="linux" src="https://img.shields.io/drone/build/conda-forge/r-gbm-feedstock/master.svg?label=Linux">
+      </a>
+    </td>
+  </tr>
     
   <tr>
     <td>Azure</td>
@@ -29,57 +41,79 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_r_base3.6target_platformlinux-64</td>
+              <td>linux_64_r_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3368&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=linux&configuration=linux_r_base3.6target_platformlinux-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=linux&configuration=linux_64_r_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_r_base4.0target_platformlinux-64</td>
+              <td>linux_64_r_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3368&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=linux&configuration=linux_r_base4.0target_platformlinux-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=linux&configuration=linux_64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_r_base3.6target_platformosx-64</td>
+              <td>linux_aarch64_r_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3368&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=osx&configuration=osx_r_base3.6target_platformosx-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_r_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_r_base4.0target_platformosx-64</td>
+              <td>linux_aarch64_r_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3368&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=osx&configuration=osx_r_base4.0target_platformosx-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_r_base3.6target_platformwin-64</td>
+              <td>linux_ppc64le_r_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3368&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=win&configuration=win_r_base3.6target_platformwin-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_r_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_r_base4.0target_platformwin-64</td>
+              <td>linux_ppc64le_r_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3368&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=win&configuration=win_r_base4.0target_platformwin-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_r_base4.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3368&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=osx&configuration=osx_64_r_base3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3368&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=osx&configuration=osx_64_r_base4.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_r_base3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3368&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=win&configuration=win_64_r_base3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_r_base4.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3368&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gbm-feedstock?branchName=master&jobName=win&configuration=win_64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr>
           </tbody>
         </table>
       </details>
-    </td>
-  </tr>
-  <tr>
-    <td>Linux_ppc64le</td>
-    <td>
-      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
     </td>
   </tr>
 </table>
@@ -168,9 +202,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
