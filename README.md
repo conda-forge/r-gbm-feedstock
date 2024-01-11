@@ -3,6 +3,7 @@ About r-gbm-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gbm-feedstock/blob/main/LICENSE.txt)
 
+
 About r-gbm
 -----------
 
@@ -11,6 +12,7 @@ Home: https://github.com/gbm-developers/gbm
 Package license: GPL-2.0-or-later
 
 Summary: An implementation of extensions to Freund and Schapire's AdaBoost  algorithm and Friedman's gradient boosting machine. Includes regression  methods for least squares, absolute loss, t-distribution loss, quantile  regression, logistic, multinomial logistic, Poisson, Cox proportional hazards  partial likelihood, AdaBoost exponential loss, Huberized hinge loss, and  Learning to Rank measures (LambdaMart). Originally developed by Greg Ridgeway.
+
 About r-gbm
 -----------
 
@@ -188,7 +190,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
