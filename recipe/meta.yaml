@@ -1,4 +1,4 @@
-{% set version = "2.1.9" %}
+{% set version = "2.2.2" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -11,10 +11,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gbm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gbm/gbm_{{ version }}.tar.gz
-  sha256: 9d88fa1d584afa58189bad47406ee9126390cbc869c041cea0247cf26645ade4
+  sha256: 029ad2bac10c98979cf69206e94f2cc51a50667ec035f2474c44fb841950c4f4
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
