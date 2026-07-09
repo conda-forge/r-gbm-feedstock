@@ -1,4 +1,4 @@
-{% set version = "2.2.3" %}
+{% set version = "2.3.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gbm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gbm/gbm_{{ version }}.tar.gz
-  sha256: 3a4fc9b4c4c8734c7591256bf80154665cbe0c2e00ec83232223954743660b11
+  sha256: 5874ba2d67ec9fedbd6ff932aa9fd4e3b95fabbe84cd243208f0bfa544f7a684
 
 build:
   number: 0
@@ -54,8 +54,8 @@ test:
 about:
   home: https://github.com/gbm-developers/gbm
   license: GPL-2.0-or-later
-  summary: An implementation of extensions to Freund and Schapire's AdaBoost  algorithm and Friedman's gradient boosting machine. Includes regression  methods for least squares, absolute loss, t-distribution loss, quantile  regression, logistic, multinomial logistic, Poisson, Cox proportional hazards  partial likelihood,
-    AdaBoost exponential loss, Huberized hinge loss, and  Learning to Rank measures (LambdaMart). Originally developed by Greg Ridgeway.
+  summary: An implementation of extensions to Freund and Schapire's AdaBoost  algorithm and Friedman's gradient boosting machine. Includes regression  methods for least squares, absolute loss, t-distribution loss, quantile  regression, logistic, multinomial logistic, Poisson, Cox proportional hazards  partial 
+    likelihood, AdaBoost exponential loss, Huberized hinge loss, and  Learning to Rank measures (LambdaMart). Originally developed by Greg Ridgeway.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
